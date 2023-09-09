@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .landing {
+    background-image: url("https://images5.alphacoders.com/127/1270960.jpg");
+    background-position: center;
+  }
+
+  .navbar {
+    background: black;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+
+  .card {
+    border: 2px solid white;
+    background-color: black;
+    /*box-shadow: 2px 2px #675f5f;*/
+    /*background-image: none;*/
+  }
+
+  .container {
+    color: white;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+    background: none;
+  }
+
+  h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    color:#757575;
+    background: none;
+  }
+
+  p {
+    color: #ffffff;
+  }
+
+  .titulo {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .item {
+    font-weight: 900;
+  }
